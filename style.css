@@ -789,6 +789,11 @@ form>h4{
     justify-content: center;
     align-items: center;
 }
+.footer-center>p>a{
+    color: #000000;
+    text-decoration: none;
+    text-decoration-style: none;
+}
 .footer-right{
     width: 40%;
     height: 100%;
