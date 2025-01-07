@@ -14,7 +14,7 @@
 </head>
 <body>
     <nav>
-        <div data-aos="fade-down" data-aos-duration="10" data-aos-mirror="false" class="navbar">
+        <div data-aos="fade-down" data-aos-duration="100" data-aos-mirror="false" class="navbar">
             <p style="color:white; position:relative; left:20px; font-family: handjet; font-size: 40px;">Techsprint Arena</p>
             <div class="ham" id="ham"><i class="fa fa-bars" id="icon" style="font-size:32px; color:white; position:absolute;"></i></div>
             <div class="options" id="options">
@@ -28,17 +28,17 @@
             </div>
         </div>
     </nav>
-    <section class="home-page">
-        <div data-aos="slide-right" data-aos-duration="1" class="design">
-            <i class="fa fa-code" style="font-size:400px; color:white; position: absolute; top:160px; left:60px; filter: drop-shadow(2px 2px 5px #000000); opacity:0.5;" data-aos="slide-right" data-aos-duration="10"></i>
+    <section class="home-page" loading="lazy">
+        <div data-aos="slide-right" data-aos-duration="100" class="design">
+            <i class="fa fa-code" style="font-size:400px; color:white; position: absolute; top:160px; left:60px; filter: drop-shadow(2px 2px 5px #000000); opacity:0.5;" data-aos="slide-right" data-aos-duration="100"></i>
         </div>
         <div class="company">
-            <h1 data-aos="slide-left" data-aos-duration="20">Techsprint Arena</h1>
-            <p data-aos="slide-left" data-aos-duration="20">Welcome to TechSprint Arena – the ultimate hub for innovation, collaborations.</p>
-            <p data-aos="slide-left" data-aos-duration="30">At TechSprint Arena, we craft immersive hackathon experiences that inspire creativity and empower minds. Our platform bridges passionate developers, innovative thinkers, and industry leaders to tackle real-world challenges and build groundbreaking solutions.</p>
-            <p data-aos="slide-left" data-aos-duration="40">Whether you're a tech enthusiast, a problem solver, or a visionary, TechSprint Arena is where ideas ignite, and innovation takes the lead.</p>
-            <p data-aos="slide-left" data-aos-duration="40">Join us, and let the sprint to tomorrow's technology start today!</p>
-            <a href="#how" data-aos="zoom-in-up" data-aos-duration="50" data-aos-delay="10" data-aos-offset="10"><h2>APPLY NOW</h2></a>
+            <h1 data-aos="slide-left" data-aos-duration="200">Techsprint Arena</h1>
+            <p data-aos="slide-left" data-aos-duration="200">Welcome to TechSprint Arena – the ultimate hub for innovation, collaborations.</p>
+            <p data-aos="slide-left" data-aos-duration="300">At TechSprint Arena, we craft immersive hackathon experiences that inspire creativity and empower minds. Our platform bridges passionate developers, innovative thinkers, and industry leaders to tackle real-world challenges and build groundbreaking solutions.</p>
+            <p data-aos="slide-left" data-aos-duration="400">Whether you're a tech enthusiast, a problem solver, or a visionary, TechSprint Arena is where ideas ignite, and innovation takes the lead.</p>
+            <p data-aos="slide-left" data-aos-duration="500">Join us, and let the sprint to tomorrow's technology start today!</p>
+            <a href="#how" data-aos="zoom-in-up" data-aos-duration="500" data-aos-delay="100" data-aos-offset="100"><h2>APPLY NOW</h2></a>
         </div>
     </section>
     <section class="how" id="how">
@@ -162,45 +162,46 @@
 <script>
     AOS.init({once:false,mirror:false});
 </script>
-<script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-        {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://techsprintarena.github.io/hackathon/"
-        },
-        {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "About Us",
-            "item": "https://techsprintarena.github.io/hackathon/#about-us"
-        },
-        {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Contributions",
-            "item": "https://techsprintarena.github.io/hackathon/#contro"
-        },
-        {
-            "@type": "ListItem",
-            "position": 4,
-            "name": "Enroll Now",
-            "item": "https://techsprintarena.github.io/hackathon/#enroll"
-        }
+<script type="application/ld+json">  
+    {  
+        "@context": "https://schema.org",  
+        "@graph": [  
+            {  
+                "@type": "BreadcrumbList",  
+                "itemListElement": [  
+                    {  
+                        "@type": "ListItem",  
+                        "position": 1,  
+                        "name": "Home",  
+                        "item": "https://techsprintarena.github.io/hackathon/"  
+                    },  
+                    {  
+                        "@type": "ListItem",  
+                        "position": 2,  
+                        "name": "About Us",  
+                        "item": "https://techsprintarena.github.io/hackathon/#about-us"  
+                    },  
+                    {  
+                        "@type": "ListItem",  
+                        "position": 3,  
+                        "name": "Contributions",  
+                        "item": "https://techsprintarena.github.io/hackathon/#contro"  
+                    },  
+                    {  
+                        "@type": "ListItem",  
+                        "position": 4,  
+                        "name": "Enroll Now",  
+                        "item": "https://techsprintarena.github.io/hackathon/#enroll"  
+                    }  
+                ]  
+            },  
+            {  
+                "@type": "Organization",  
+                "name": "Techsprint Arena",  
+                "url": "https://techsprintarena.github.io/hackathon/",  
+                "logo": "https://techsprintarena.github.io/hackathon/assets/logo.png"  
+            }
         ]
-    }
-</script>
-<script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Techsprint Arena",
-        "url": "https://techsprintarena.github.io/hackathon/",
-        "logo": "https://techsprintarena.github.io/hackathon/assets/logo.png",
     }
     </script>
 </html>
