@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>check it out !</title> 
+    <style>
+
+        ::-webkit-scrollbar{
+            display: none;
+        }
+
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        .container1{
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            width:100vw;
+            background-image: linear-gradient(55deg, #1C3B4D 49%, rgb(0, 0, 0) 49%,  #1A9085 49.5%, #1A9085 100%);
+        }
+        
+        .container2{
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            background-image: linear-gradient(125deg, #1C3B4D 49%, #ffffff 49% , #1A9085 49.5%, #1A9085 100%);
+        }
+
+        .container3{
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            background-image: linear-gradient(121deg, #1C3B4D 24.2%,#ffffff 24.1%,  #1A9085 24.7%, #1A9085 100%);
+        }
+
+        h1{
+            color: #fff;
+            font-size: 3rem;
+            margin-bottom: 20px;
+            margin-left: 50%;
+            filter: drop-shadow(0 0 0.1rem #fff);
+            user-select: none;
+        }
+
+        .container2 h1{
+            margin-left: 10%;
+        }
+
+        .container3 h1{
+            margin-left: 35%;
+            font-size: 2.5rem;
+        }
+
+        .container3 img{
+            margin-left: 33%;
+            filter: drop-shadow(15px 15px 5px #00000075);
+        }
+
+        .container2 video{
+            margin-left: 60%;
+            border: #ffffff 1px solid;
+            border-radius: 50%;
+        }
+        
+        .container1 video{
+            border: #ffffff 1px solid;
+            border-radius: 50%;
+        }
+
+        h6{
+            color: #fff;
+            font-size: 1rem;
+            margin-left: 76%;
+            position: absolute;
+            top: 60%;
+            filter: drop-shadow(0 0 0.1rem #fff);
+            user-select: none;
+        }
+        
+        H2{
+            color: #fff;
+            font-size: 16rem;
+            margin-left: 45%;
+            position: absolute;
+            top: -2%;
+            filter: drop-shadow(0 0 0.5rem #fff);
+            user-select: none;
+        }
+
+        p{
+            color: #fff;
+            font-size: 8rem;
+            margin-left: 63%;
+            margin-top: 22%;
+            position: absolute;
+            top: 0%;
+            filter: drop-shadow(0 0 0.2rem #fff);
+            user-select: none;
+        }
+        
+        .container2 p{
+            margin-left: 15%;
+            margin-top: 74%;
+            font-size: 4rem;
+            position: absolute;
+            top: 0%;
+            filter: drop-shadow(0 0 0.1rem #fff);
+            user-select: none;
+        }
+
+        .container1 img{
+            display: none;
+        }
+        .container2 img{
+            display: none;
+        }
+
+        .container3 div{
+                margin: 10% 0% 0% 10%;
+                font-size: 1.5rem;
+                cursor: pointer;
+                background-color: #1C3B4D;
+                width: fit-content;
+                padding: 10px 20px;
+                border-radius: 30px;
+                border: 1px solid #ffffff75;
+                box-shadow: 5px 5px 10px #00000075;
+                color: white;
+                z-index: 5;
+                position: absolute;
+                bottom: -150%;
+            }
+
+        @media screen and (max-width: 768px){
+            
+            .container1 video{
+                display: none;
+            }
+            .container2 video{
+                display: none;
+            }
+            section{
+                border-bottom: 1px solid #ffffff75;
+            }
+            .container1{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+            .container1 h1{
+                font-size: 24px;
+                margin-left: 0;
+                position: absolute;
+                top: 0;
+            }
+            .container1 h2{
+                font-size: 17rem;
+                margin-left: 0;
+            }
+            .container1 h6{
+                font-size: 12px;
+                margin-left: 15%;
+                position: relative;
+                top: -150px;
+            }
+            .container1 p{
+                font-size: 6rem;
+                margin-left: 0;
+            }
+            .container1 img{
+                width: 300px;
+                height: 250px;
+                position: absolute;
+                top: 65%;
+                left: 9%;
+                display: block;
+            } 
+
+
+            .container2{
+                overflow: hidden;
+            }
+            .container2 img{
+                width: 300px;
+                height: 300px;
+                position: relative;
+                top: 38%;
+                left: 20%;
+                display: block;
+            }
+            .container2 h1{
+                margin-left: 4%;
+                font-size: 28px;
+                margin-top: 10%;
+            }
+            .container2 p{
+                margin-left: 5%;
+                font-size: 4rem;
+                top: 90vh;
+            }
+            
+            .container3{
+                background-color: #1A9085;
+                background-image: none;
+            }
+            .container3 img{
+                width: 80%;
+                height: 30%;
+                margin: 10%;
+                border: 1px solid #ffffff75;
+            }
+            .container3 h1{
+                margin-left: 10%;
+                font-size: 2.5rem;
+            }
+
+            .container3 div{
+                bottom: -200%;
+            }
+            
+        }
+    </style>
+
+</head>
+<body>
+    <section class="container1">
+        <h1>REWARDS FOR WINNER</h1>
+        <p>₹ 2000 </p>
+        <h6>( WITH EXCELLENCE CERTIFICATE )</h6>
+        <H2>+</H2>
+        <video width="500px" height="500px" loop autoplay poster="assets/T SHIRT MOCKUP.png">
+            <source src="assets/T SHIRT MOCKUP.mp4" type="video/mp4">
+        </video>
+        <img src="assets/T SHIRT MOCKUP bg.png" alt="winner t-shirt " width="500px" height="500px">
+    </section>
+    <section class="container2">
+        <h1>REWARDS FOR RUNNER</h1>
+        <video width="500px" height="500px" loop autoplay poster="assets/T SHIRT MOCKUP 2.png">
+            <source src="assets/T SHIRT MOCKUP 2.mp4" type="video/mp4">
+        </video>
+        <img src="assets/T SHIRT MOCKUP 2 bg.png" alt="runner t-shirt " width="500px" height="500px">
+        <p>T-SHIRT</p>
+    </section>
+    <section  class="container3">
+        <h1>REWARDS FOR PARTICIPANTS</h1>
+        <img src="assets/certificate of participation.png" alt="certification of participation" width="750px" height="500px">
+        <a href="https://techsprintarena.github.io/hackathon"><div>Back To HOME PAGE.</div></a>
+    </section>
+</body>
+</html>
