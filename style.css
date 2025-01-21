@@ -35,7 +35,7 @@ body::-webkit-scrollbar {
 }
 .options{
     width: 20%;
-    height:50lvh;
+    height:50vh;
     background-color: rgba(26, 144, 133,0.9);
     position: absolute;
     top:8vh;
@@ -49,6 +49,7 @@ body::-webkit-scrollbar {
     justify-content: center;
     align-items: center;
     font-family: handjet;
+    padding-bottom:34px ;
 }
 .options>div{
     width: 95%;
@@ -57,7 +58,7 @@ body::-webkit-scrollbar {
 .options>div>li{
     list-style-type: none;
     width:100%;
-    height:18%;
+    height:16.6%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -357,6 +358,7 @@ body::-webkit-scrollbar {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 .about-box{
     width: 100%;
@@ -378,18 +380,26 @@ body::-webkit-scrollbar {
 .box:hover{
     background-color: #1a9084be;
     width: 40%;
-    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .box>h4{
     color:white;
     font-size: 40px;
     font-family: handjet;
-    margin-bottom: 0px;
+    margin: 0px;
     transition: ease-in-out 1s;
 }
 .box:hover > h4{
     font-size: 60px;
     color: orange;
+}
+.box>p{
+    color:white;
+    font-size: 30px;
+    font-family: handjet;
+    display:none;
 }
 .box:hover>p{
     display: block;
@@ -408,12 +418,6 @@ body::-webkit-scrollbar {
     100%{
         opacity: 1;
     }
-}
-.box>p{
-    color:white;
-    font-size: 30px;
-    font-family: handjet;
-    display:none;
 }
 .box>ul{
     margin-top: 0px;
